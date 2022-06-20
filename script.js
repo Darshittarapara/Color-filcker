@@ -1,4 +1,4 @@
-
+v
 // // function Sum(a) {
 // //     this.blank = a
 // // }
@@ -491,7 +491,10 @@
 // fulldes.call(Node2, 120)
 // fulldes.call(Node3, 100)
 
-const savecolor = ['red', 'blue', 'pink', 'YellowGreen', 'black', 'orange', 'green', 'aqua', 'dimgrey', 'wheat', 'AliceBlue', 'CadetBlue', 'Chocolate', 'DarkSalmon', 'GhostWhite', 'MintCream', 'MidnightBlue', "Sienna", 'PowderBlue', 'Violet', 'yellow', 'gold', 'palevioletred', 'beige']
+const savecolor = ['red', 'blue', 'pink', 'YellowGreen', 'black', 'orange', 'green', 'aqua', 'dimgrey', 'wheat', 'AliceBlue', 'CadetBlue', 'Chocolate', 'DarkSalmon', 'GhostWhite', 'MintCream', 'MidnightBlue', "Sienna", 'PowderBlue', 'Violet', 'yellow', 'gold', 'palevioletred', 'beige', "mediumspringgreen", "lawngreen", "lightpink", "tomato", "thistle", "coral", "rebeccapurple", "darkkhaki", "antiquewhite", "crimson", "moccasin", "fuchsia", "deepskyblue", "darkorange", "lightblue", "mediumspringgreen", "lawngreen"]
+
+
+
 let a = 0;
 let clear;
 let reverse;
