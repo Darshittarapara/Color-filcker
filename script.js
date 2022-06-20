@@ -491,14 +491,14 @@
 // fulldes.call(Node2, 120)
 // fulldes.call(Node3, 100)
 
-const savecolor = ['red', 'blue', 'pink', 'YellowGreen', 'black', 'orange', 'green', 'aqua', 'dimgrey', 'wheat', 'AliceBlue', 'CadetBlue', 'Chocolate', 'DarkSalmon', 'GhostWhite', 'MintCream', 'MidnightBlue', "Sienna", 'PowderBlue', 'Violet', 'yellow',]
+const savecolor = ['red', 'blue', 'pink', 'YellowGreen', 'black', 'orange', 'green', 'aqua', 'dimgrey', 'wheat', 'AliceBlue', 'CadetBlue', 'Chocolate', 'DarkSalmon', 'GhostWhite', 'MintCream', 'MidnightBlue', "Sienna", 'PowderBlue', 'Violet', 'yellow', 'gold', 'palevioletred', 'beige']
 let a = 0;
 let clear;
 let reverse;
 const body = document.getElementById('body');
 const display = document.getElementById('get')
 document.getElementById('start_btn').addEventListener('click', () => {
-
+    clearInterval(reverse)
     clear = setInterval(() => {
         if (a > savecolor.length) {
             a = 0
@@ -522,6 +522,7 @@ document.getElementById('start_btn').addEventListener('click', () => {
 })
 //reverse
 document.getElementById('reverse_btn').addEventListener('click', () => {
+    clearInterval(clear)
     reverse = setInterval(() => {
         if (a < 0) {
             a = savecolor.length - 1
